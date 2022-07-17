@@ -1,0 +1,38 @@
+section {
+    padding: 70px 0 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.carousel, .tab, .accordion {
+    margin-top: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.2);
+}
+
+form {
+    width: 450px;
+    margin: 40px auto;
+}
+
+input {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 18px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    height: 80px;
+    background-color: rgba(194, 194, 194, 0.9);
+}
+
