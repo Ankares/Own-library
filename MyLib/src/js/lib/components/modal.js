@@ -43,6 +43,8 @@ $.prototype.createModal = function({text, btns} = {}) {
         modal.setAttribute('id', this[i].getAttribute('data-target').slice(1)); 
         
         const buttons = [];
+
+        // creating obj looks like {count: num, settings: [[text, classNames=[], close, callback]]}
         for (let j = 0; j < btns.count; j++) {
             let btn = document.createElement('button');
             btn.classList.add('btn', ...btns.settings[j][1]); 
